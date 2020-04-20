@@ -19,6 +19,8 @@
     HTTP 409 : { message : "already exist"}
 
     HTTP 400 : { message : e.message } // 나올 일 없음 나오면 날 욕해줘요
+    
+    
 
 * POST /signin ( 유저 로그인 )
 
@@ -61,6 +63,8 @@
     HTTP 400 : { message : e.message } // 나올 일 없음 나오면 날 욕해줘요
 
 
+
+
 * POST /gameData/ranking/read/all ( 모든 게임의 랭킹보기 )
 
 > Params
@@ -79,6 +83,9 @@
      } 
 
     HTTP 400 : { message : e.message } // 나올 일 없음 나오면 날 욕해줘요
+    
+    
+    
 
 * POST /gameData/ranking/read/one ( 한 게임의 랭킹보기 )
 
@@ -98,6 +105,8 @@
      } 
 
     HTTP 400 : { message : e.message } // 나올 일 없음 나오면 날 욕해줘요
+
+
 
 
 * POST /gameData/ranking/read/one ( 특정 게임의 랭킹보기 )
@@ -139,6 +148,7 @@
      } 
 
     HTTP 400 : { message : e.message } // 나올 일 없음 나오면 날 욕해줘요
+
 
 
 
