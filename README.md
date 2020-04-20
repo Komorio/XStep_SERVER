@@ -45,12 +45,12 @@
 
 > Params
 
-  musicName : {type: String} // 음악 이름
-  recordTotal : {type :String} // 그 판의 점수
-  perPlay : {type : String} // 클리어 퍼센트
-  playedUser : {type: String} // 플레이한 유저 이름
-  musicToken : {type : String} // 플레이한 음악 토큰
-  userToken : {type: String} // 플레이한 유저 토큰
+    musicName : {type: String} // 음악 이름
+    recordTotal : {type :String} // 그 판의 점수
+    perPlay : {type : String} // 클리어 퍼센트
+    playedUser : {type: String} // 플레이한 유저 이름
+    musicToken : {type : String} // 플레이한 음악 토큰
+    userToken : {type: String} // 플레이한 유저 토큰
 
 > Response
 
@@ -64,7 +64,9 @@
 * POST /gameData/ranking/read/all ( 모든 게임의 랭킹보기 )
 
 > Params
+ 
     null
+    
 > Response
 
      HTTP 200 : { list :
